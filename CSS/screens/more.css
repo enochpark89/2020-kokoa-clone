@@ -1,0 +1,46 @@
+.more-screen .find-row {
+   margin-top: 25px;
+}
+
+.more-suggestions {
+   padding: 0px 0px;
+   border-top: var(--main-border);
+   padding-top: 20px;
+}
+
+.more-suggestions__icons {
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.more-suggestions__icon-kakaostory {
+   width: 60px;
+   height: 60px;
+   background-color: var(--yellow);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.more-suggestions__icon-instagram {
+   width: 60px;
+   height: 60px;
+   background-color: #fe8600;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 45px;
+}
+.more-suggestions__icon-facebook {
+   width: 60px;
+   height: 60px;
+   background-color: #1873eb;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 45px;
+}

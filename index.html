@@ -8,39 +8,43 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- status bar-->
   <div class="status-bar">
-        <div class="status-bar__column">
-          <span>No Service</span>
-          <!-- To Do: Wifi Icon -->
-          <i class="fas fa-wifi"></i>
-          </div>
-          <div class="status-bar__column">
-            <span>18:43</span>
-          </div>
-          <div class="status-bar__column">
-            <span>110%</span>
-          
-          <!-- Battery Icon-->
-          <i class="fas fa-battery-full"></i>
-          <!-- Lightning Icon -->
-          <i class="fas fa-bolt"></i>
-			</div>
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>3:33 PM</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <!-- Battery Icon-->
+      <i class="fas fa-battery-full"></i>
+      <!-- Lightning Icon -->
+      <i class="fas fa-bolt"></i>
+    </div>
   </div>
   
   <header class="welcome-header">
  
       <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
       <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
-
-    
+  
   </header>
 
   <form action="friends.html" method="get"id="login-form">
     <input type="text" placeholder="Email or phone number"/>
     <input type="password" placeholder="Password" />
     <input type="submit" value="Log In" />
-    <a href="#"> Find Kakao Account or Password</a>
+    <a href="#"> Find Kokoa Account or Password</a>
   </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big. Please resize width to the line --> </span>
+    <div class="no-mobile__resize-box">width: 645px</div>
+  </div>
+
 
   <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
   
