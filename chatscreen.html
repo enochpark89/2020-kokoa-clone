@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Kakaotalk</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="chat-screen">
+
+  <!-- status bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>3:33 PM</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!-- Battery Icon-->
+        <i class="fas fa-battery-full"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+  
+    <!-- chatroom header -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a class="nav__link" href="./chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Chat</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        Tuesday, January 30, 2021
+      </div>
+      <div class="message-row">
+        <img src="https://www.aceshowbiz.com/images/photo/leonardo_dicaprio.jpg"/>
+        <div class="message-row__content">
+          <span class="message__author">Leonardo</span>
+          <div class="message_info">
+            <span class="message__bubble">Are you done writing the script?</span>
+            <span class="time">3:00PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row  message-row--own">
+        <div class="message-row__content--own">
+          <span class="message__author">Me</span>
+          <div class="message_info">
+            <span class="time">3:03PM</span>
+            <span class="message__bubble">It will be done in few days</span>
+           
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- textbox to write text-->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="&nbsp;&nbsp;Write a message" />
+        <i class="far fa-smile"></i>
+        <button id="reply__button">
+          <span><i class="fas fa-arrow-up fa-lg"></i></span>
+        </button>
+      </div>
+    </form>
+
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>
