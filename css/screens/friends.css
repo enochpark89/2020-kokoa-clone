@@ -17,13 +17,13 @@
 }
 
 .friends-screen__channel {
-   margin-top: 20px;
+   margin-top: 25px;
    border-top: var(--main-border);
    padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    display: flex;
    justify-content: space-between;
 }
