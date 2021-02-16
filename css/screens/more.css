@@ -23,6 +23,9 @@
    align-items: center;
    color: white;
 }
+.more-suggestions__icon-text {
+   text-align: center;
+}
 
 .more-suggestions__icon-instagram {
    width: 60px;
